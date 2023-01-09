@@ -1,0 +1,10 @@
+<ivy-module version="2.0">
+    <info organisation="com.mendix" module="mxawsconnectors"/>
+    <configurations defaultconfmapping="default">
+        <conf name="default" description="run in modeler" extends="export"/>
+        <conf name="export" description="connector export dependencies only"/>
+    </configurations>
+    <dependencies>
+		  <dependency org="software.amazon.awssdk" name="sagemakerruntime" rev="2.17.257"/>
+    </dependencies>
+</ivy-module>
